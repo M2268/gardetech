@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.php">SB Admin</a>
+        <a class="navbar-brand" href="index.php">Admin panel</a>
     </div>
     <!-- Top Menu Items -->
 <?php include "topMenu.php" ?>

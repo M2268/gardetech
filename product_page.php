@@ -35,7 +35,6 @@ $select_all_products = mysqli_query($connection, $query);
 while ($row = mysqli_fetch_assoc($select_all_products)) {
     $product_id = $row['product_id'];
     $product_name = $row['product_name'];
-    $product_date = $row['product_date'];
     $product_image = $row['product_image'];
     $product_image2 = $row['product_image2'];
     $product_image3 = $row['product_image3'];

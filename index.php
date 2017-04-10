@@ -26,7 +26,7 @@
                 <div style="position:relative" class="show-item col-xs-12 col-md-4">
                     <a href="/gardetech/category%20view.php">
                     <div style="position: absolute;"><img class="show-item"
-                                                          src="http://lorempixel.com/360/360/nature/1/"></div>
+                                                          src="http://placehold.it/360x360"></div>
                     <div style="position:absolute; z-index:1; left:30%; top:40%;"><h3 style="color:white;">WIOSNA</h3>
                     </div>
                     </a>
@@ -34,7 +34,7 @@
                 <div style="position:relative" class="show-item col-xs-12 col-md-4">
                     <a href="/gardetech/category%20view.php">
                     <div style="position: absolute;"><img class="show-item"
-                                                          src="http://lorempixel.com/360/360/nature/2/"></div>
+                                                          src="http://placehold.it/360x360"></div>
                     <div style="position:absolute; z-index:1; left:37%; top:40%;"><h3 style="color:white;">LATO</h3>
                     </div>
                     </a>
@@ -43,7 +43,7 @@
                     <a href="/gardetech/category%20view.php">
 
                     <div style="position: absolute;"><img class="show-item"
-                                                          src="http://lorempixel.com/360/360/nature/3/"></div>
+                                                          src="http://placehold.it/360x360"></div>
                     <div style="position:absolute; z-index:1; left:33%; top:40%;"><h3 style="color:white;">JESIEŃ</h3>
                     </div>
                     </a>

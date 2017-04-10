@@ -11,8 +11,8 @@
         <div class="carousel-inner" role="listbox">
             <div class="item active" style="position:relative">
                 <div>
-                <div class="logo"><img src="http://gardetech.com/wp-content/themes/gardetech/images/logo-1543167586.png"> </div>
-                <img src="http://lorempixel.com/1680/670/nature/4/">
+                <div class="logo"><a href="http://gardetech.com/"><img src="http://gardetech.com/wp-content/themes/gardetech/images/logo-1543167586.png"></a> </div>
+                <img src="http://placehold.it/1680x670">
                 </div>
             </div>
 <!--

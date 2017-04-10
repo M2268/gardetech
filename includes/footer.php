@@ -34,11 +34,11 @@
         </div>
         <div class="col-lg-4 col-xs-12" >
             <div class="col-lg-12"><h4>Kategorie</h4></div>
-            <div class="col-lg-12"><a class="fmenu-vertical" href="">kategoria główna1</a></div>
-            <div class="col-lg-12"><a class="fmenu-vertical" href="">kategoria główna2</a></div>
-            <div class="col-lg-12"><a class="fmenu-vertical" href="">kategoria główna3</a></div>
-            <div class="col-lg-12"><a class="fmenu-vertical" href="">kategoria główna4</a></div>
-            <div class="col-lg-12"><a class="fmenu-vertical" href="">kategoria główna5</a></div>
+            <div class="col-lg-12"><a class="fmenu-vertical" href="/category.php?catID=1">Tunele</a></div>
+            <div class="col-lg-12"><a class="fmenu-vertical" href="/category.php?catID=2">Zbiorniki</a></div>
+            <div class="col-lg-12"><a class="fmenu-vertical" href="/category.php?catID=3">Łuparki</a></div>
+            <div class="col-lg-12"><a class="fmenu-vertical" href="/category.php?catID=4">Opryskiwacze</a></div>
+            <div class="col-lg-12"><a class="fmenu-vertical" href="/category.php?catID=5">Pilarki</a></div>
         </div>
     </div>
 

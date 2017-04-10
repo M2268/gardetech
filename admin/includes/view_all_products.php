@@ -2,11 +2,11 @@
     <thead>
     <tr>
         <th>id</th>
-        <th>name</th>
-        <th>category</th>
-        <th>date</th>
-        <th>image</th>
-        <th>content</th>
+        <th>nazwa</th>
+        <th>kategora</th>
+        <th>krótki opis</th>
+        <th>długi opis</th>
+        <th>tabelka</th>
         <th>tags</th>
         <th>status</th>
         <th>edit</th>
