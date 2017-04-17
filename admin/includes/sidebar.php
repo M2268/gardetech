@@ -9,6 +9,9 @@
         <li>
             <a href="/admin/categories.php">Kategorie</a>
         </li>
+        <li>
+            <a href="/admin/includes/logout.php">Wyloguj</a>
+        </li>
 
 
     </ul>

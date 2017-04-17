@@ -2,11 +2,6 @@
 <?php include "includes/header.php" ?>
 
 
-
-
-
-<?php session_start(); ?>
-
     <div id="wrapper">
 
     <!-- Navigation -->

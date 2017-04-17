@@ -1,6 +1,6 @@
 <div class="firstMenu container-fluid pm-0">
     <div class="col-lg-3  col-md-3 col-sm-3 col-xs-12  pm-0 f-cont">
-        <div class="ico-center"><img style="width: 80%; height: 80%;" src="images/ct1.png"></div>
+        <div class="ico-center"><img style="width: 80%; height: 80%;" src="images/lawn_mower.png"></div>
         <div class="col-lg-12 col-xs-12 f-title pm-0"><h4 class="f-title">Oferta</h4></div>
         <div class="col-lg-12 col-xs-12" style="padding: 20px;">
             <ul class="nav nav-pills nav-stacked" id="li-first-menu">

@@ -39,6 +39,7 @@
             <div class="col-lg-12"><a class="fmenu-vertical" href="/category.php?catID=3">Łuparki</a></div>
             <div class="col-lg-12"><a class="fmenu-vertical" href="/category.php?catID=4">Opryskiwacze</a></div>
             <div class="col-lg-12"><a class="fmenu-vertical" href="/category.php?catID=5">Pilarki</a></div>
+            <div class="col-lg-12"><a class="fmenu-vertical" href="/category.php?catID=6">Kosy</a></div>
         </div>
     </div>
 

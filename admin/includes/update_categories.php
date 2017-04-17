@@ -6,8 +6,10 @@
             $cat_id = $_GET['edit'];
 
             $query = "SELECT * FROM categories WHERE cat_id = {$cat_id}";
-            $select_categories_id = mysqli_query($connection, $query);
+        if($_SESSION['role']==='admin') {
 
+            $select_categories_id = mysqli_query($connection, $query);
+        }
             while ($row = mysqli_fetch_assoc($select_categories_id)) {
                 $cat_id = $row['cat_id'];
                 $cat_name = $row['cat_name'];
@@ -21,7 +23,10 @@
         if(isset($_POST['update_category'])) {
             $get_cat_name = $_POST['cat_name'];
             $query = "UPDATE categories SET cat_name = '{$get_cat_name}' WHERE cat_id = '{$cat_id}' ";
+        if($_SESSION['role']==='admin') {
+
             $update_query = mysqli_query($connection, $query);
+        }
             if(!$update_query) {
                 die("QUERY FAILED" . mysqli_error($connection));
             }        }

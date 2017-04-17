@@ -206,11 +206,7 @@
     </div>
 
     <div class="col-md-10 col-lg-10 col-xs-12">
-    <div class="products">
-    <div class="r-products"><h3>Pilarki spalinowe</h3></div>
-    <hr class="rp">
-    <div id="recent" class="r-products"><span style="width:90%;"><b>Tu będzie opis kategorii do SEO </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</span>
-    </div>
+    <div class="products" style="border:none">
 
 <?php
 
@@ -218,7 +214,7 @@
 
 if(isset($_POST['submit']))
 {
-    $search = $_POST['search'];
+    $search = mysqli_real_escape_string($connection, $_POST['search']);
 
     $query = "SELECT * FROM products WHERE product_name LIKE '%$search%' OR product_tags LIKE '%$search%' OR product_content LIKE '%$search%' OR product_desc LIKE '%$search%' OR product_short_desc LIKE '%$search%'";
     $search_query = mysqli_query($connection, $query);
@@ -241,19 +237,20 @@ if(isset($_POST['submit']))
         {
             $product_name = $row['product_name'];
             $product_id = $row['product_id'];
-            $product_image = $row['product_image'];
+            $product_image1 = $row['product_image1'];
 
             ?>
 
             <div class="product-item">
                 <a href="<?php echo '?p_id=' . $product_id ?>">
-                    <div><img src="<?php echo $product_image ?>" alt=""></div>
+                    <div><img src="images/<?php echo $product_image1 ?>" alt=""></div>
                     <div class="p-sub"><span class="p-sub"><?php echo $product_name ?></span></div>
                 </a>
             </div>
 
         <?php }}} ?>
 
+    </div>
 
         </div>
         </div>

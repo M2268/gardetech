@@ -29,7 +29,7 @@
                                     src="http://gardetech.com/wp-content/themes/gardetech/images/logo-1543167586.png">
                         </div>
                     </a>
-                    <img src="http://lorempixel.com/1680/300/nature/1/CATEGORY%20IMAGE/">
+                    <img src="http://placehold.it/1680x300">
                 </div>
             </div>
             <!--
@@ -241,15 +241,15 @@
                 while ($row = mysqli_fetch_assoc($select_all_products)) {
                     $product_id = $row['product_id'];
                     $product_name = $row['product_name'];
-                    $product_image = $row['product_image'];
+                    $product_image1 = $row['product_image1'];
                     $product_category_id = $row['product_category_id'];
                     $product_content = substr($row['product_content'], 0, 200);
 
                     ?>
 
                     <div class="product-item">
-                        <a href="<?php echo '?p_id=' . $product_id ?>">
-                            <div><img src="/images/<?php echo $product_image ?>" alt=""></div>
+                        <a href="<?php echo '../product.php?p_id=' . $product_id ?>">
+                            <div><img src="/images/<?php echo $product_image1 ?>" alt=""></div>
                             <div class="p-sub"><span class="p-sub"><?php echo $product_name ?></span></div>
                         </a>
                     </div>

@@ -58,14 +58,14 @@
                 </div>
 
                 <div class="product-item">
-                    <a href="/product_page.php">
+                    <a href="/product.php">
                         <div>
                             <img src="http://gardetech.com/wp-content/uploads/2014/03/pol_pm_Opryskiwacz-cisnieniowy-5l-11205-5837_4-270x300.jpg"
                                  alt=""></div>
                         <div class="p-sub"><span class="p-sub">Opryskiwacz ciśnieniowy 5l – 11205</span></div>
                     </a></div>
                 <div class="product-item">
-                    <a href="/product_page.php">
+                    <a href="/product.php">
                         <div>
                             <img src="http://gardetech.com/wp-content/uploads/2014/03/pol_pm_Opryskiwacz-cisnieniowy-5l-11205-5837_4-270x300.jpg"
                                  alt=""></div>
@@ -73,14 +73,14 @@
                     </a>
                 </div>
                 <div class="product-item">
-                    <a href="/product_page.php">
+                    <a href="/product.php">
                         <div>
                             <img src="http://gardetech.com/wp-content/uploads/2014/03/pol_pm_Opryskiwacz-cisnieniowy-5l-11205-5837_4-270x300.jpg"
                                  alt=""></div>
                         <div class="p-sub"><span class="p-sub">Opryskiwacz ciśnieniowy 5l – 11205</span></div>
                     </a></div>
                 <div class="product-item">
-                    <a href="/product_page.php">
+                    <a href="/product.php">
                         <div>
                             <img src="http://gardetech.com/wp-content/uploads/2014/03/pol_pm_Opryskiwacz-cisnieniowy-5l-11205-5837_4-270x300.jpg"
                                  alt=""></div>

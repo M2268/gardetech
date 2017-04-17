@@ -1,19 +1,17 @@
 <?php include "includes/header.php" ?>
 
 
-<div id="wrapper">
+    <div id="wrapper">
 
 
         <!-- Navigation -->
-<?php include "includes/navigation.php" ?>
+        <?php include "includes/navigation.php" ?>
 
         <div id="page-wrapper">
 
             <div class="container-fluid">
 
-                <!-- Page Heading -->
 
-                <!-- /.row -->
 
             </div>
             <!-- /.container-fluid -->

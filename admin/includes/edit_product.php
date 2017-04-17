@@ -1,31 +1,31 @@
 <?php
-if(isset($_GET['p_id'])) {
-$get_product_id = $_GET['p_id'];
+if (isset($_GET['p_id'])) {
+    $get_product_id = $_GET['p_id'];
 }
-    $query = "SELECT * FROM products WHERE product_id={$get_product_id}";
-    $select_product_by_id = mysqli_query($connection, $query);
-    echo $query;
-    while ($row = mysqli_fetch_assoc($select_product_by_id)) {
-        $product_name = $row['product_name'];
-        $product_category_id = $row['product_category_id'];
-        $product_content = $row['product_content'];  //dlugi opis
-        $product_desc = $row['product_desc']; // tabelka
-        $product_tags = $row['product_tags']; // tabelka
-        $product_short_desc = $row['product_short_desc']; //krotki opis
-        $product_category_id = $row['product_category_id'];
-        $youtube_link = $row['youtube_link'];
-        $product_image = $row['product_image'];
-        $product_image2 = $row['product_image2'];
-        $product_image3 = $row['product_image3'];
-        $product_image4 = $row['product_image4'];
-        $product_image5 = $row['product_image5'];
-        $product_image6 = $row['product_image6'];
-        $product_image7 = $row['product_image7'];
-        $product_image8 = $row['product_image8'];
-        $product_image9 = $row['product_image9'];
-        $product_image10 = $row['product_image10'];
-    }
-if(isset($_POST['edit_product'])){
+$query = "SELECT * FROM products WHERE product_id={$get_product_id}";
+$select_product_by_id = mysqli_query($connection, $query);
+echo $query;
+while ($row = mysqli_fetch_assoc($select_product_by_id)) {
+    $product_name = $row['product_name'];
+    $product_category_id = $row['product_category_id'];
+    $product_content = $row['product_content'];  //dlugi opis
+    $product_desc = $row['product_desc']; // tabelka
+    $product_tags = $row['product_tags']; // tabelka
+    $product_short_desc = $row['product_short_desc']; //krotki opis
+    $product_category_id = $row['product_category_id'];
+    $youtube_link = $row['youtube_link'];
+    $product_image = $row['product_image'];
+    $product_image2 = $row['product_image2'];
+    $product_image3 = $row['product_image3'];
+    $product_image4 = $row['product_image4'];
+    $product_image5 = $row['product_image5'];
+    $product_image6 = $row['product_image6'];
+    $product_image7 = $row['product_image7'];
+    $product_image8 = $row['product_image8'];
+    $product_image9 = $row['product_image9'];
+    $product_image10 = $row['product_image10'];
+}
+if (isset($_POST['edit_product'])) {
 
     $product_name = $_POST['product_name'];
     $product_category_id = $_POST['product_category_id'];
@@ -123,12 +123,11 @@ if(isset($_POST['edit_product'])){
         $product_image10 = $_FILES['product_image10']['name'];
         $product_image_tmp10 = $_FILES['product_image10']['tmp_name'];
         $product_image_name10 = "$product_image10-$product_name-10.jpg";
-        move_uploaded_file($product_image_tmp10-10, "../images/$product_image_name-10");
+        move_uploaded_file($product_image_tmp10 - 10, "../images/$product_image_name-10");
     } else {
         $product_image_name10 = '';
     }
 
-    
 
     $query = "UPDATE products SET ";
     $query .= "product_name = '{$product_name}',";
@@ -149,10 +148,13 @@ if(isset($_POST['edit_product'])){
     $query .= "product_image9 = '{$product_image9}'";
     $query .= "product_image10 = '{$product_image19}'";
     $query .= "WHERE product_id = {$get_product_id}";
+    if ($_SESSION['role'] === 'admin') {
 
-    $edit_product = mysqli_query($connection, $query);
+        $edit_product = mysqli_query($connection, $query);
 
-    confirm($edit_product);
+        confirm($edit_product);
+
+    }
 
 }
 ?>
@@ -176,10 +178,10 @@ if(isset($_POST['edit_product'])){
             while ($row = mysqli_fetch_assoc($select_categories)) {
                 $cat_id = $row['cat_id'];
                 $cat_name = $row['cat_name'];
-                if($product_category_id === $cat_id)
+                if ($product_category_id === $cat_id)
                     $selected = 'selected="selected"';
-                else $selected ='';
-                echo "<option ".$selected." value='{$cat_id}'>{$cat_name}</option>";
+                else $selected = '';
+                echo "<option " . $selected . " value='{$cat_id}'>{$cat_name}</option>";
             }
             ?>
         </select>
@@ -187,12 +189,12 @@ if(isset($_POST['edit_product'])){
 
     <div class="form-group">
         <label for="product_tags">tagi</label>
-        <input value="<?php echo $product_tags?>" type="text" class="form-control" name="product_tags">
+        <input value="<?php echo $product_tags ?>" type="text" class="form-control" name="product_tags">
     </div>
 
     <div class="form-group">
         <label for="youtube_link">link do youtube</label>
-        <input value="<?php echo $youtube_link?>" type="text" class="form-control" name="youtube_link">
+        <input value="<?php echo $youtube_link ?>" type="text" class="form-control" name="youtube_link">
     </div>
     <!--
         <div class="form-group">
@@ -203,87 +205,90 @@ if(isset($_POST['edit_product'])){
 
     <div class='form-group'>
         <label for='product_short_desc'>krótki opis</label>
-        <textarea value='<?php echo $product_short_desc?>' class='form-control' name='product_short_desc' id='' cols='30' rows='10'></textarea>
+        <textarea value='<?php echo $product_short_desc ?>' class='form-control' name='product_short_desc' id=''
+                  cols='30' rows='10'></textarea>
     </div>
 
     <div class='form-group'>
         <label for='product_desc'>tabelka</label>
-        <textarea value='<?php echo $product_desc?>' class='form-control' name='product_desc' id='' cols='30' rows='10'></textarea>
+        <textarea value='<?php echo $product_desc ?>' class='form-control' name='product_desc' id='' cols='30'
+                  rows='10'></textarea>
     </div>
 
     <div class='form-group'>
         <label for='product_content'>długi opis</label>
-        <textarea value='<?php echo $product_content?>' class='form-control' name='product_content' id='' cols='30' rows='10'></textarea>
+        <textarea value='<?php echo $product_content ?>' class='form-control' name='product_content' id='' cols='30'
+                  rows='10'></textarea>
     </div>
 
     <div class="form-group">
-        <?php if($product_image!=''){
-        echo '<img width="80px" src="../images/'.$product_image.'">';
-        }?>
+        <?php if ($product_image != '') {
+            echo '<img width="80px" src="../images/' . $product_image . '">';
+        } ?>
         <label for="product_image">zdjęcie produktu</label>
         <input type="file" class="form-control" name="product_image">
     </div>
 
     <div class="form-group">
-        <?php if($product_image2!=''){
-            echo '<img width="80px" src="../images/'.$product_image2.'">';
-        }?>
+        <?php if ($product_image2 != '') {
+            echo '<img width="80px" src="../images/' . $product_image2 . '">';
+        } ?>
         <label for="product_image2">zdjęcie produktu</label>
         <input type="file" class="form-control" name="product_image2">
     </div>
     <div class="form-group">
-        <?php if($product_image3!=''){
-            echo '<img width="80px" src="../images/'.$product_image3.'">';
-        }?>
+        <?php if ($product_image3 != '') {
+            echo '<img width="80px" src="../images/' . $product_image3 . '">';
+        } ?>
         <label for="product_image3">zdjęcie produktu</label>
         <input type="file" class="form-control" name="product_image3">
     </div>
     <div class="form-group">
-        <?php if($product_image4!=''){
-            echo '<img width="80px" src="../images/'.$product_image4.'">';
-        }?>
+        <?php if ($product_image4 != '') {
+            echo '<img width="80px" src="../images/' . $product_image4 . '">';
+        } ?>
         <label for="product_image4">zdjęcie produktu</label>
         <input type="file" class="form-control" name="product_image4">
     </div>
     <div class="form-group">
-        <?php if($product_image5!=''){
-            echo '<img width="80px" src="../images/'.$product_image5.'">';
-        }?>
+        <?php if ($product_image5 != '') {
+            echo '<img width="80px" src="../images/' . $product_image5 . '">';
+        } ?>
         <label for="product_image5">zdjęcie produktu</label>
         <input type="file" class="form-control" name="product_image5">
     </div>
     <div class="form-group">
-        <?php if($product_image6!=''){
-            echo '<img width="80px" src="../images/'.$product_image6.'">';
-        }?>
+        <?php if ($product_image6 != '') {
+            echo '<img width="80px" src="../images/' . $product_image6 . '">';
+        } ?>
         <label for="product_image6">zdjęcie produktu</label>
         <input type="file" class="form-control" name="product_image6">
     </div>
     <div class="form-group">
-        <?php if($product_image7!=''){
-            echo '<img width="80px" src="../images/'.$product_image7.'">';
-        }?>
+        <?php if ($product_image7 != '') {
+            echo '<img width="80px" src="../images/' . $product_image7 . '">';
+        } ?>
         <label for="product_image7">zdjęcie produktu</label>
         <input type="file" class="form-control" name="product_image7">
     </div>
     <div class="form-group">
-        <?php if($product_image8!=''){
-            echo '<img width="80px" src="../images/'.$product_image8.'">';
-        }?>
+        <?php if ($product_image8 != '') {
+            echo '<img width="80px" src="../images/' . $product_image8 . '">';
+        } ?>
         <label for="product_image8">zdjęcie produktu</label>
         <input type="file" class="form-control" name="product_image8">
     </div>
     <div class="form-group">
-        <?php if($product_image9!=''){
-            echo '<img width="80px" src="../images/'.$product_image9.'">';
-        }?>
+        <?php if ($product_image9 != '') {
+            echo '<img width="80px" src="../images/' . $product_image9 . '">';
+        } ?>
         <label for="product_image9">zdjęcie produktu</label>
         <input type="file" class="form-control" name="product_image9">
     </div>
     <div class="form-group">
-        <?php if($product_image10!=''){
-            echo '<img width="80px" src="../images/'.$product_image10.'">';
-        }?>
+        <?php if ($product_image10 != '') {
+            echo '<img width="80px" src="../images/' . $product_image10 . '">';
+        } ?>
         <label for="product_image10">zdjęcie produktu</label>
         <input type="file" class="form-control" name="product_image10">
     </div>

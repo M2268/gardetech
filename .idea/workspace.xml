@@ -5,37 +5,68 @@
     <bookmark url="file://$PROJECT_DIR$/includes/firstMenu.php" description="     &lt;div class=&quot;col-lg-3  col-md-3 col-sm-3 col-x..." line="29" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="159c9152-db40-4473-aaa9-3659cb3c29f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search_copy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/category_view.php" afterPath="" />
+    <list default="true" id="1f0c7136-edb7-4d47-8b74-9870098e15cb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category view_preview.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gardetech/.idea/gardetech.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gardetech/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gardetech/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/11812.jpg-Opryskiwacz spalinowy plecakowy 12 litrĂłw 2.9KM-2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/11812.jpg-Opryskiwacz spalinowy plecakowy 12 litrĂłw 2.9KM-3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/11812.jpg-Opryskiwacz spalinowy plecakowy 12 litrĂłw 2.9KM-4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/15991571_1319661018091098_2054622795_o.jpg-nazwa-1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/15991571_1319661018091098_2054622795_o.jpg-test4-1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index static.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/product_page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/product_page_preview.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search_copy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/categories.php" afterPath="$PROJECT_DIR$/admin/categories.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/bordered-pulled.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/fixed-width.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/larger.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/rotated-flipped.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/spinning.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/spinning.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/stacked.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/admin/font-awesome/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/_spinning.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_spinning.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/admin/font-awesome/scss/font-awesome.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/add_product.php" afterPath="$PROJECT_DIR$/admin/includes/add_product.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/edit_product.php" afterPath="$PROJECT_DIR$/admin/includes/edit_product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/functions.php" afterPath="$PROJECT_DIR$/admin/includes/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/header.php" afterPath="$PROJECT_DIR$/admin/includes/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/navigation.php" afterPath="$PROJECT_DIR$/admin/includes/navigation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/sidebar.php" afterPath="$PROJECT_DIR$/admin/includes/sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/topMenu.php" afterPath="$PROJECT_DIR$/admin/includes/topMenu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/update_categories.php" afterPath="$PROJECT_DIR$/admin/includes/update_categories.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/view_all_products.php" afterPath="$PROJECT_DIR$/admin/includes/view_all_products.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/products.php" afterPath="$PROJECT_DIR$/admin/products.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category.php" afterPath="$PROJECT_DIR$/category.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/carousel.php" afterPath="$PROJECT_DIR$/includes/carousel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/db.php" afterPath="$PROJECT_DIR$/includes/db.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/firstMenu.php" afterPath="$PROJECT_DIR$/includes/firstMenu.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.php" afterPath="$PROJECT_DIR$/includes/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/sidebar.php" afterPath="$PROJECT_DIR$/includes/sidebar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_page.php" afterPath="$PROJECT_DIR$/product_page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_page_preview.php" afterPath="$PROJECT_DIR$/product_page_preview.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kontakt.php" afterPath="$PROJECT_DIR$/contact.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/o nas.php" afterPath="$PROJECT_DIR$/about.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,131 +87,13 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="simple_cms" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/category.php">
+    <leaf>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3740">
-              <caret line="220" column="35" lean-forward="false" selection-start-line="220" selection-start-column="35" selection-end-line="220" selection-end-column="35" />
-              <folding>
-                <marker date="1491146921624" expanded="true" signature="10639:10679" ph="SELECT * FRO... categories" />
-                <marker date="1491146921624" expanded="true" signature="12040:12091" ph="SELECT * FRO... products" />
-                <marker date="1491146921624" expanded="true" signature="12160:12182" ph="SELECT * FRO... products" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product_page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="58" selection-end-column="6" />
-              <folding>
-                <marker date="1491083260763" expanded="true" signature="676:718" ph="SELECT * FRO... products" />
-                <marker date="1491083260763" expanded="true" signature="1655:1701" ph="SELECT cat_i... category" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_page_preview.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product_page_preview.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="54" lean-forward="false" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
-              <folding>
-                <marker date="1491338444094" expanded="true" signature="613:655" ph="SELECT * FRO... products" />
-                <marker date="1491338444094" expanded="true" signature="1594:1640" ph="SELECT cat_i... category" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/edit_product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2839">
-              <caret line="167" column="50" lean-forward="false" selection-start-line="167" selection-start-column="50" selection-end-line="167" selection-end-column="50" />
-              <folding>
-                <marker date="1491341735693" expanded="true" signature="82:122" ph="SELECT * FRO... products" />
-                <marker date="1491341735693" expanded="true" signature="5642:5661" ph="UPDATE produ... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/add_product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="43" />
-              <folding>
-                <marker date="1491339970356" expanded="true" signature="4844:5138" ph="INSERT INTO products... " />
-                <marker date="1491339970356" expanded="true" signature="6063:6087" ph="SELECT * FRO... categories" />
-                <marker date="1491339970356" expanded="true" signature="6819:6836" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="90" lean-forward="false" selection-start-line="45" selection-start-column="90" selection-end-line="45" selection-end-column="90" />
-              <folding>
-                <marker date="1491248521463" expanded="true" signature="4429:4451" ph="SELECT * FRO... products" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view_all_products.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/includes/view_all_products.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding>
-                <marker date="1491342418789" expanded="true" signature="373:395" ph="SELECT * FRO... products" />
-                <marker date="1491342418789" expanded="true" signature="1024:1064" ph="SELECT * FRO... categories" />
-                <marker date="1491342418789" expanded="true" signature="2096:2136" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="firstMenu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/firstMenu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="67" lean-forward="false" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-              <folding>
-                <marker date="1491248199819" expanded="true" signature="1052:1076" ph="SELECT * FRO... categories" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="carousel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/carousel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3485">
-              <caret line="205" column="22" lean-forward="false" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -283,7 +196,6 @@
         <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/admin/includes/topMenu.php" />
-        <option value="$PROJECT_DIR$/admin/includes/header.php" />
         <option value="$PROJECT_DIR$/admin/includes/navigation.php" />
         <option value="$PROJECT_DIR$/admin/includes/sidebar.php" />
         <option value="$PROJECT_DIR$/admin/categories.php" />
@@ -303,6 +215,7 @@
         <option value="$PROJECT_DIR$/admin/includes/add_product.php" />
         <option value="$PROJECT_DIR$/admin/includes/edit_product.php" />
         <option value="$PROJECT_DIR$/admin/includes/view_all_products.php" />
+        <option value="$PROJECT_DIR$/admin/includes/header.php" />
       </list>
     </option>
   </component>
@@ -312,18 +225,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/Nowy folder/angular/myTube/node_modules" />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+    <option name="x" value="74" />
+    <option name="width" value="1288" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -340,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -350,20 +255,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,6 +293,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -414,15 +306,15 @@
     <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\gardetech\images" />
-      <recent name="D:\xampp\htdocs\simple_cms\admin\includes" />
-      <recent name="D:\xampp\htdocs\simple_cms" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs" />
       <recent name="D:\xampp\htdocs\gardetech" />
       <recent name="D:\xampp\htdocs\simple_cms\includes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\gardetech\images" />
+      <recent name="D:\xampp\htdocs\simple_cms\admin\includes" />
+      <recent name="D:\xampp\htdocs\simple_cms" />
     </key>
   </component>
   <component name="RunManager">
@@ -488,7 +380,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="159c9152-db40-4473-aaa9-3659cb3c29f2" name="Default" comment="" />
+      <changelist id="1f0c7136-edb7-4d47-8b74-9870098e15cb" name="Default" comment="" />
       <created>1485087032784</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -529,6 +421,7 @@
       <workItem from="1491127967006" duration="11110000" />
       <workItem from="1491247366557" duration="9094000" />
       <workItem from="1491735833555" duration="408000" />
+      <workItem from="1492466772428" duration="524000" />
     </task>
     <task id="LOCAL-00001" summary="search box completed, dynamically displayed category">
       <created>1485211747774</created>
@@ -555,7 +448,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175079000" />
+    <option name="totallyTimeSpent" value="175638000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,27 +460,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="74" y="0" width="1288" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25475842" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24923313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24035087" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30402383" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5576">
           <caret line="328" column="16" lean-forward="false" selection-start-line="328" selection-start-column="16" selection-end-line="328" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,13 +584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index static.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1071">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index static.php" />
     <entry file="file://$PROJECT_DIR$/index_copy.php" />
     <entry file="file://$PROJECT_DIR$/product.php" />
     <entry file="file://$PROJECT_DIR$/images/1487541455_world.png">
@@ -760,9 +646,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <marker date="1491063544063" expanded="true" signature="1739:1742" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -770,13 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -801,20 +678,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search_copy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="233" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="268" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/search_copy.php" />
+    <entry file="file://$PROJECT_DIR$/search2.php" />
     <entry file="file://$PROJECT_DIR$/includes/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -829,20 +694,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/category view_preview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/category view_preview.php" />
+    <entry file="file://$PROJECT_DIR$/temp.php" />
     <entry file="file://$PROJECT_DIR$/images/11812.jpg-test 8-1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -852,11 +705,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3740">
           <caret line="220" column="35" lean-forward="false" selection-start-line="220" selection-start-column="35" selection-end-line="220" selection-end-column="35" />
-          <folding>
-            <marker date="1491146921624" expanded="true" signature="10639:10679" ph="SELECT * FRO... categories" />
-            <marker date="1491146921624" expanded="true" signature="12040:12091" ph="SELECT * FRO... products" />
-            <marker date="1491146921624" expanded="true" signature="12160:12182" ph="SELECT * FRO... products" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -864,9 +713,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="67" lean-forward="false" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-          <folding>
-            <marker date="1491248199819" expanded="true" signature="1052:1076" ph="SELECT * FRO... categories" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3485">
           <caret line="205" column="22" lean-forward="false" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,41 +728,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="58" selection-end-column="6" />
-          <folding>
-            <marker date="1491083260763" expanded="true" signature="676:718" ph="SELECT * FRO... products" />
-            <marker date="1491083260763" expanded="true" signature="1655:1701" ph="SELECT cat_i... category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_page_preview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="54" lean-forward="false" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
-          <folding>
-            <marker date="1491338444094" expanded="true" signature="613:655" ph="SELECT * FRO... products" />
-            <marker date="1491338444094" expanded="true" signature="1594:1640" ph="SELECT cat_i... category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/product_page.php" />
+    <entry file="file://$PROJECT_DIR$/product_page_preview.php" />
     <entry file="file://$PROJECT_DIR$/admin/includes/add_product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <marker date="1491339970356" expanded="true" signature="4844:5138" ph="INSERT INTO products... " />
-            <marker date="1491339970356" expanded="true" signature="6063:6087" ph="SELECT * FRO... categories" />
-            <marker date="1491339970356" expanded="true" signature="6819:6836" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,10 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2839">
           <caret line="167" column="50" lean-forward="false" selection-start-line="167" selection-start-column="50" selection-end-line="167" selection-end-column="50" />
-          <folding>
-            <marker date="1491341735693" expanded="true" signature="82:122" ph="SELECT * FRO... products" />
-            <marker date="1491341735693" expanded="true" signature="5642:5661" ph="UPDATE produ... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -935,9 +751,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="90" lean-forward="false" selection-start-line="45" selection-start-column="90" selection-end-line="45" selection-end-column="90" />
-          <folding>
-            <marker date="1491248521463" expanded="true" signature="4429:4451" ph="SELECT * FRO... products" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -945,11 +759,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <marker date="1491342418789" expanded="true" signature="373:395" ph="SELECT * FRO... products" />
-            <marker date="1491342418789" expanded="true" signature="1024:1064" ph="SELECT * FRO... categories" />
-            <marker date="1491342418789" expanded="true" signature="2096:2136" ph="DELETE FROM " />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
