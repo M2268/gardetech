@@ -197,6 +197,60 @@
                         </a>
                     </div>
                 </div>
+                <div class="panel-group" style="padding-left:10px; ">
+                    <div class="panel ">
+                        <a href="/category.php?catID=6">
+                            <div class="panel-heading" style="border-left:4px solid #66AB36 ">
+                                <h4 class="panel-title" style="text-align: left; ">
+                                    Kosy
+                                    <!--
+                                     <a data-toggle="collapse" href="#collapse1" style="color: black; text-decoration:none">
+                                    <div style="width: 20px; display:inline-block; float: right;">
+                                           <img src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-128.png">
+                                       </div> odkomentować jeśli są podkategorie
+                                        </a>
+                                       -->
+                                </h4>
+                            </div>
+
+
+                            <!-- <div id="collapse1" class="panel-collapse collapse">  odkomentowac jesli są podkategorie
+                            <ul class="list-group">
+
+                                <li class=\"list-group-item\">podkategoria</li>
+
+                            </ul>
+                        </div>-->
+                        </a>
+                    </div>
+                </div>
+                <div class="panel-group" style="padding-left:10px; ">
+                    <div class="panel ">
+                        <a href="/category.php?catID=7">
+                            <div class="panel-heading" style="border-left:4px solid #66AB36 ">
+                                <h4 class="panel-title" style="text-align: left; ">
+                                    Nożyce
+                                    <!--
+                                     <a data-toggle="collapse" href="#collapse1" style="color: black; text-decoration:none">
+                                    <div style="width: 20px; display:inline-block; float: right;">
+                                           <img src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-128.png">
+                                       </div> odkomentować jeśli są podkategorie
+                                        </a>
+                                       -->
+                                </h4>
+                            </div>
+
+
+                            <!-- <div id="collapse1" class="panel-collapse collapse">  odkomentowac jesli są podkategorie
+                            <ul class="list-group">
+
+                                <li class=\"list-group-item\">podkategoria</li>
+
+                            </ul>
+                        </div>-->
+                        </a>
+                    </div>
+                </div>
 
 
             </div>
@@ -212,17 +266,17 @@
 
 
 
-if(isset($_POST['submit']))
+if(isset($_GET))
 {
-    $search = mysqli_real_escape_string($connection, $_POST['search']);
+    $search = mysqli_real_escape_string($connection, $_GET['search']);
 
     $query = "SELECT * FROM products WHERE product_name LIKE '%$search%' OR product_tags LIKE '%$search%' OR product_content LIKE '%$search%' OR product_desc LIKE '%$search%' OR product_short_desc LIKE '%$search%'";
     $search_query = mysqli_query($connection, $query);
 
-    if(!$search_query)
-    {
-        die("ERROR: ".mysqli_error($connection));
-    }
+    //if(!$search_query)
+    //{
+    //    die("ERROR: ".mysqli_error($connection));
+    //}
     $count = mysqli_num_rows($search_query);
     if($count == 0)
     {
@@ -242,7 +296,7 @@ if(isset($_POST['submit']))
             ?>
 
             <div class="product-item">
-                <a href="<?php echo '?p_id=' . $product_id ?>">
+                <a href="<?php echo './product.php?p_id=' . $product_id ?>">
                     <div><img src="images/<?php echo $product_image1 ?>" alt=""></div>
                     <div class="p-sub"><span class="p-sub"><?php echo $product_name ?></span></div>
                 </a>

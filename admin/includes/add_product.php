@@ -1,7 +1,5 @@
 <?php
 if (isset($_POST['create_product'])) {
-
-
     $select_id = mysqli_query($connection, 'SELECT max(product_id) FROM products');
     while ($row = mysqli_fetch_assoc($select_id)) {
         $id = $row['max(product_id)']+1;

@@ -24,7 +24,7 @@
 
             <div class="show-cat">
                 <div style="position:relative" class="show-item col-xs-12 col-md-4">
-                    <a href="/gardetech/category%20view.php">
+                    <a href="search.php?search=wiosna">
                     <div style="position: absolute;"><img class="show-item"
                                                           src="http://placehold.it/360x360"></div>
                     <div style="position:absolute; z-index:1; left:30%; top:40%;"><h3 style="color:white;">WIOSNA</h3>
@@ -32,7 +32,7 @@
                     </a>
                 </div>
                 <div style="position:relative" class="show-item col-xs-12 col-md-4">
-                    <a href="/gardetech/category%20view.php">
+                    <a href="search.php?search=lato">
                     <div style="position: absolute;"><img class="show-item"
                                                           src="http://placehold.it/360x360"></div>
                     <div style="position:absolute; z-index:1; left:37%; top:40%;"><h3 style="color:white;">LATO</h3>
@@ -40,7 +40,7 @@
                     </a>
                 </div>
                 <div style="position:relative" class="show-item col-xs-12 col-md-4">
-                    <a href="/gardetech/category%20view.php">
+                    <a href="search.php?search=jesień">
 
                     <div style="position: absolute;"><img class="show-item"
                                                           src="http://placehold.it/360x360"></div>
@@ -54,32 +54,32 @@
             <div class="products">
                 <div class="r-products"><h3>Najnowsze produkty</h3></div>
                 <hr class="rp">
-                <div id="recent" class="r-products"><span class="r-products">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec gravida enim, vehicula tristique mauris..</span>
+                <div id="recent" class="r-products"><span class="r-products"></span>
                 </div>
 
                 <div class="product-item">
-                    <a href="/product.php">
+                    <a href="/product.php?p_id=12">
                         <div>
-                            <img src="http://gardetech.com/wp-content/uploads/2014/03/pol_pm_Opryskiwacz-cisnieniowy-5l-11205-5837_4-270x300.jpg"
+                            <img src="images/8374_7-12-7.jpg"
                                  alt=""></div>
-                        <div class="p-sub"><span class="p-sub">Opryskiwacz ciśnieniowy 5l – 11205</span></div>
+                        <div class="p-sub"><span class="p-sub">T352W Kosa spalinowa / podkaszarka 3 KM </span></div>
                     </a></div>
                 <div class="product-item">
-                    <a href="/product.php">
+                    <a href="/product.php?p_id=6">
                         <div>
-                            <img src="http://gardetech.com/wp-content/uploads/2014/03/pol_pm_Opryskiwacz-cisnieniowy-5l-11205-5837_4-270x300.jpg"
+                            <img src="images/pol_pl_Pila-spalinowa-lancuchowa-3KM-prowadnica-40cm-GTW5218--2237_5-6-1.jpg"
                                  alt=""></div>
-                        <div class="p-sub"><span class="p-sub">Opryskiwacz ciśnieniowy 5l – 11205</span></div>
+                        <div class="p-sub"><span class="p-sub">GTW5218 Piła spalinowa łańcuchowa 3KM prowadnica 40cm</span></div>
                     </a>
                 </div>
                 <div class="product-item">
-                    <a href="/product.php">
+                    <a href="/product.php?p_id=28">
                         <div>
-                            <img src="http://gardetech.com/wp-content/uploads/2014/03/pol_pm_Opryskiwacz-cisnieniowy-5l-11205-5837_4-270x300.jpg"
+                            <img src="images/pol_pl_Opryskiwacz-spalinowy-plecakowy-12-litrow-2-9KM-5675_1-28-1.jpg"
                                  alt=""></div>
-                        <div class="p-sub"><span class="p-sub">Opryskiwacz ciśnieniowy 5l – 11205</span></div>
+                        <div class="p-sub"><span class="p-sub">11812 Opryskiwacz spalinowy plecakowy 12 litrów 2.9KM </span></div>
                     </a></div>
-                <div class="product-item">
+                <div class="product-item" style="display:none">
                     <a href="/product.php">
                         <div>
                             <img src="http://gardetech.com/wp-content/uploads/2014/03/pol_pm_Opryskiwacz-cisnieniowy-5l-11205-5837_4-270x300.jpg"

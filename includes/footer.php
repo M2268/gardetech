@@ -22,14 +22,13 @@
         <div class="col-lg-4 col-xs-12" style="display:flex; justify-content: center">
             <div class="col-lg-12">
                 <div class="col-lg-12"><h4>Tagi</h4></div>
-                <div class="tag-cloud"><a href="">benzynowe</a></div>
-                <div class="tag-cloud"><a href="">lato</a></div>
-                <div class="tag-cloud"><a href="">opryskiwacze</a></div>
-                <div class="tag-cloud"><a href="">pilarki</a></div>
-                <div class="tag-cloud"><a href="">zima</a></div>
-                <div class="tag-cloud"><a href="">spalinowe</a></div>
-                <div class="tag-cloud"><a href="">elektryczne</a></div>
-                <div class="tag-cloud"><a href="">tunele ogrodowe</a></div>
+                <div class="tag-cloud"><a href="search.php?search=spalinowe">spalinowe</a></div>
+                <div class="tag-cloud"><a href="search.php?search=lato">lato</a></div>
+                <div class="tag-cloud"><a href="search.php?search=opryskiwacze">opryskiwacze</a></div>
+                <div class="tag-cloud"><a href="search.php?search=pilarki">pilarki</a></div>
+                <div class="tag-cloud"><a href="search.php?search=zima">zima</a></div>
+                <div class="tag-cloud"><a href="search.php?search=elektryczne">elektryczne</a></div>
+                <div class="tag-cloud"><a href="search.php?search=tunele">tunele ogrodowe</a></div>
         </div>
         </div>
         <div class="col-lg-4 col-xs-12" >

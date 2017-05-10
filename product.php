@@ -63,8 +63,8 @@ while ($row = mysqli_fetch_assoc($select_all_products)) {
 
     $catQuery = "SELECT cat_image FROM category WHERE cat_id = {$product_category_id}";
     $select_category = mysqli_query($connection, $catQuery);
-    while ($row = mysqli_fetch_assoc($select_category))
-        $cat_image = $row['cat_image'];
+    //while ($row = mysqli_fetch_assoc($select_category))
+        //$cat_image = $row['cat_image'];
 
     ?>
 
@@ -100,36 +100,38 @@ while ($row = mysqli_fetch_assoc($select_all_products)) {
     <div class="container" style="padding:90px 0px;">
         <div class="col-xs-12">
             <h1><?php echo $product_name ?></h1>
-            <p><?php echo $product_short_desc ?></p>
         </div>
         <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
             <div class="main-photo">
-                <img src="<?php echo $product_image1 ?>">
+                <img src="/images/<?php echo $product_image1 ?>">
             </div>
             <div class="gallery">
-                <?php if ($product_image2 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image2 . "\"> </div>" ?>
-                <?php if ($product_image3 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image3 . "\"> </div>" ?>
-                <?php if ($product_image4 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image4 . "\"> </div>" ?>
-                <?php if ($product_image5 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image5 . "\"> </div>" ?>
-                <?php if ($product_image6 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image6 . "\"> </div>" ?>
-                <?php if ($product_image7 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image7 . "\"> </div>" ?>
-                <?php if ($product_image8 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image8 . "\"> </div>" ?>
-                <?php if ($product_image9 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image9 . "\"> </div>" ?>
-                <?php if ($product_image10 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image10 . "\"> </div>" ?>
-                <?php if ($product_image11 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image11 . "\"> </div>" ?>
-                <?php if ($product_image12 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image12 . "\"> </div>" ?>
-                <?php if ($product_image13 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image13 . "\"> </div>" ?>
-                <?php if ($product_image14 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image14 . "\"> </div>" ?>
-                <?php if ($product_image15 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image15 . "\"> </div>" ?>
-                <?php if ($product_image16 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image16 . "\"> </div>" ?>
-                <?php if ($product_image17 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image17 . "\"> </div>" ?>
-                <?php if ($product_image18 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image18 . "\"> </div>" ?>
-                <?php if ($product_image19 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image19 . "\"> </div>" ?>
-                <?php if ($product_image20 != '') echo "<div class=\"gal-item\"><img src=\"" . $product_image20 . "\"> </div>" ?>
+                <?php if ($product_image1 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image1 . "\"> </div>" ?>
+                <?php if ($product_image2 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image2 . "\"> </div>" ?>
+                <?php if ($product_image3 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image3 . "\"> </div>" ?>
+                <?php if ($product_image4 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image4 . "\"> </div>" ?>
+                <?php if ($product_image5 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image5 . "\"> </div>" ?>
+                <?php if ($product_image6 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image6 . "\"> </div>" ?>
+                <?php if ($product_image7 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image7 . "\"> </div>" ?>
+                <?php if ($product_image8 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image8 . "\"> </div>" ?>
+                <?php if ($product_image9 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image9 . "\"> </div>" ?>
+                <?php if ($product_image10 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image10 . "\"> </div>" ?>
+                <?php if ($product_image11 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image11 . "\"> </div>" ?>
+                <?php if ($product_image12 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image12 . "\"> </div>" ?>
+                <?php if ($product_image13 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image13 . "\"> </div>" ?>
+                <?php if ($product_image14 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image14 . "\"> </div>" ?>
+                <?php if ($product_image15 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image15 . "\"> </div>" ?>
+                <?php if ($product_image16 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image16 . "\"> </div>" ?>
+                <?php if ($product_image17 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image17 . "\"> </div>" ?>
+                <?php if ($product_image18 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image18 . "\"> </div>" ?>
+                <?php if ($product_image19 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image19 . "\"> </div>" ?>
+                <?php if ($product_image20 != '') echo "<div class=\"gal-item\"><img src=\"images\\" . $product_image20 . "\"> </div>" ?>
 
             </div>
         </div>
         <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+            <p><?php echo $product_short_desc ?><br></p>
+
             <table class="table table-striped">
                 <tbody>
                 <?php echo $product_desc ?>
@@ -153,5 +155,12 @@ while ($row = mysqli_fetch_assoc($select_all_products)) {
     </div>
 <?php } ?>
     <hr>
+<script>
+    $(document).ready(function(){
+        $('.gal-item').click(function(){
+            $('.main-photo').find('img').attr('src',$(this).find('img').attr('src'));
+        })
+    })
+</script>
     <!-- Footer -->
 <?php include "includes/footer.php"; ?>

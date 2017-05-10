@@ -134,9 +134,7 @@ h3{
 }
 .product-item{
     max-width: 250px;
-    border: 1px #EBEBEB solid;
     margin-bottom: 20px;
-
 }
 .product-item > div:first-child{
     min-height: 276px;
@@ -149,7 +147,9 @@ h3{
     text-align:center;
 }
 div.p-sub{
-    height:50px;
+    height:auto;
+    border: 1px #EBEBEB solid;
+    border-top:none;
 }
 h4 {
     text-align: center;
@@ -178,6 +178,12 @@ h4 {
 .main-photo{
     border:1px solid #DDDDDD;
     margin-bottom: 30px;
+    display:flex;
+    justify-content: center;
+}
+.main-photo > img{
+    max-width:100%;
+    width:unset;
 }
 .gal-item{
     height: auto;

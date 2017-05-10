@@ -1,9 +1,9 @@
 <?php
 
-$db['db_host'] = "localhost";
-$db['db_user'] = "root";
-$db['db_password'] = "";
-$db['db_name'] = "gardetech";
+$db['db_host'] = "65234.m.tld.pl";
+$db['db_user'] = "admin65234_139";
+$db['db_password'] = "4Fm8wHokB0";
+$db['db_name'] = "baza65234_139";
 
 
 
@@ -15,8 +15,4 @@ foreach($db as $key => $value)
 $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME );
 $connection -> query("SET NAMES 'utf8'");
 
-if (!$connection)
-{
-    echo "not connected";
-}
 ?>

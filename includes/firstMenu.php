@@ -28,13 +28,14 @@
 
         </div>
     </div>
-    <div class="col-lg-3  col-md-3 col-sm-3 col-xs-12  pm-0 f-cont">
+    <div class="col-lg-3  col-md-3 col-sm-3 col-xs-12  pm-0 f-cont"><a href="about.php" style="cursor:pointer; text-decoration: none!important; color:black!important">
         <div class="ico-center"><img style="width: 80%; height: 80%;" src="images/ct3.png"></div>
         <div class="col-lg-12 col-xs-12 f-title pm-0"><h4 class="f-title">O nas</h4></div>
-        <div class="col-lg-12 col-xs-12" style="padding: 20px; text-align:center;"><span><b>Gardetech sp. z o.o.</b> powstała w roku 2002 i od tego czasu nieprzerwanie dostarcza polskim  i europejskim użytkownikom sprzęt, akcesoria i urządzenia do wykorzystania w ogrodzie, lesie, na plantacjach  i polach uprawnych.<br><a href="/about.php">Więcej</a> </span>
+        <div class="col-lg-12 col-xs-12" style="padding: 20px; text-align:center;"><span><b>Gardetech sp. z o.o.</b> powstała w roku 2002 i od tego czasu nieprzerwanie dostarcza polskim  i europejskim użytkownikom sprzęt, akcesoria i urządzenia do wykorzystania w ogrodzie, lesie, na plantacjach  i polach uprawnych.<br></span>
         </div>
+        </a>
     </div>
-    <div class="col-lg-3  col-md-3 col-sm-3 col-xs-12  pm-0 f-cont">
+    <div class="col-lg-3  col-md-3 col-sm-3 col-xs-12  pm-0 f-cont"><a href="contact.php"  style="cursor:pointer; text-decoration: none!important; color:black!important">
         <div class="ico-center"><img style="width: 80%; height: 80%;" src="images/ct2.png"></div>
         <div class="col-lg-12 col-xs-12 f-title pm-0"><h4 class="f-title">Kontakt</h4></div>
         <div class="col-lg-12 col-xs-12" style="padding: 20px; text-align: center">
@@ -46,18 +47,18 @@ ul. Robotnicza 72<br>
 Tel: +48 510132669<br>
 Tel: +48 717827965<br>
 Fax: +48 717827950<br>
-      <a href="/contact.php">Więcej</a></span></div>
+</span></div></a>
     </div>
     <div class="col-lg-3  col-md-3 col-sm-3 col-xs-12 pm-0 f-cont">
         <div class="ico-center"><img style="width: 70%; height: 70%;" src="images/ct4.png"></div>
         <div class="col-lg-12 col-xs-12 f-title pm-0"><h4 class="f-title">Wyszukaj produkty</h4></div>
         <div class="col-lg-12 col-xs-12" style="padding: 20px; padding-top:40px; height:180px">
-            <form action="search.php" method="post">
+            <form action="search.php" method="get">
                 <label for="search">Co chciałbyś znaleźć?</label>
                 <div class="input-group">
-                    <input name="search" type="text" class="form-control">
+                    <input name="search" type="text" style="height:40px" class="form-control">
                     <span class="input-group-btn">
-                            <button name="submit" class="btn btn-default" style="padding: 9px 12px;" type="submit">
+                            <button class="btn btn-default" style="padding: 9px 12px;" type="submit">
                                 <span class="glyphicon glyphicon-search"></span>
                         </button>
                         </span>
